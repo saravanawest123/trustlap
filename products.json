@@ -1,62 +1,62 @@
 [
   {
     "brand": "HP",
-    "model": "440 G8",
-    "cpu": "Intel I3 11TH",
-    "ram": "8",
-    "ssd": "256",
-    "qty": "28",
-    "price": "TBD",
-    "image": "https://drive.google.com/uc?export=view&id=YOUR_IMAGE_ID"
-  },
-  {
-    "brand": "HP",
-    "model": "440 G8",
-    "cpu": "Intel I5 11TH",
-    "ram": "8",
-    "ssd": "256",
-    "qty": "17",
-    "price": "TBD",
-    "image": "https://drive.google.com/uc?export=view&id=YOUR_IMAGE_ID"
-  },
-  {
-    "brand": "DELL",
-    "model": "INSIPIRION 5570",
-    "cpu": "Intel I7 8TH",
-    "ram": "8",
-    "ssd": "256",
-    "qty": "1",
-    "price": "TBD",
-    "image": "https://drive.google.com/uc?export=view&id=YOUR_IMAGE_ID"
-  },
-  {
-    "brand": "LENOVO",
-    "model": "E580",
+    "model": "840 G5",
     "cpu": "Intel I5 8TH",
     "ram": "8",
     "ssd": "256",
     "qty": "3",
-    "price": "TBD",
+    "price": "20500",
     "image": "https://drive.google.com/uc?export=view&id=YOUR_IMAGE_ID"
   },
   {
-    "brand": "LENOVO",
-    "model": "T580",
-    "cpu": "Intel I5 8TH",
+    "brand": "HP",
+    "model": "840 G5",
+    "cpu": "Intel I7 8TH",
     "ram": "8",
     "ssd": "256",
-    "qty": "1",
-    "price": "TBD",
+    "qty": "3",
+    "price": "26000",
     "image": "https://drive.google.com/uc?export=view&id=YOUR_IMAGE_ID"
   },
   {
-    "brand": "LENOVO",
-    "model": "E15",
-    "cpu": "Intel I5 10TH",
+    "brand": "HP",
+    "model": "FOLIO ",
+    "cpu": "Intel I5 6TH",
     "ram": "8",
     "ssd": "256",
     "qty": "1",
-    "price": "TBD",
+    "price": "17000",
+    "image": "https://drive.google.com/uc?export=view&id=YOUR_IMAGE_ID"
+  },
+  {
+    "brand": "HP",
+    "model": "ELITE BOOK",
+    "cpu": "Intel I7 7TH",
+    "ram": "8",
+    "ssd": "256",
+    "qty": "3",
+    "price": "19500",
+    "image": "https://drive.google.com/uc?export=view&id=YOUR_IMAGE_ID"
+  },
+  {
+    "brand": "ZEBRONICS CPU",
+    "model": "ZEBRONICS",
+    "cpu": "Intel I5 4TH",
+    "ram": "8",
+    "ssd": "512",
+    "qty": "1",
+    "price": "14000",
+    "image": "https://drive.google.com/uc?export=view&id=YOUR_IMAGE_ID"
+  },
+  {
+    "brand": "INTEL MINI PC",
+    "model": "INTEL",
+    "cpu": "Intel I3 8TH",
+    "ram": "8",
+    "ssd": "256",
+    "qty": "1",
+    "price": "13000",
     "image": "https://drive.google.com/uc?export=view&id=YOUR_IMAGE_ID"
   }
 ]
