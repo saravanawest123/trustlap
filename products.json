@@ -1,0 +1,20 @@
+[
+  {
+    "brand": "HP",
+    "model": "Folio 1040",
+    "cpu": "Intel i5 8th Gen",
+    "ram": "8",
+    "ssd": "256",
+    "price": "21500",
+    "image": "https://drive.google.com/uc?export=view&id=1nPab2C9mgA9toagYhhnR5HkM0RvzLPqe"
+  },
+  {
+    "brand": "Lenovo",
+    "model": "ThinkPad E14",
+    "cpu": "Intel i5 10th Gen",
+    "ram": "8",
+    "ssd": "512",
+    "price": "25500",
+    "image": "https://drive.google.com/uc?export=view&id=DRIVE_IMAGE_ID_2"
+  }
+]
