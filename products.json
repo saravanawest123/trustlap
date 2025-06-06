@@ -1,20 +1,62 @@
 [
   {
     "brand": "HP",
-    "model": "Folio 1040",
-    "cpu": "Intel i5 8th Gen",
+    "model": "440 G8",
+    "cpu": "Intel I3 11TH",
     "ram": "8",
     "ssd": "256",
-    "price": "21500",
-    "image": "https://drive.google.com/uc?export=view&id=1nPab2C9mgA9toagYhhnR5HkM0RvzLPqe"
+    "qty": "28",
+    "price": "TBD",
+    "image": "https://drive.google.com/uc?export=view&id=YOUR_IMAGE_ID"
   },
   {
-    "brand": "Lenovo",
-    "model": "ThinkPad E14",
-    "cpu": "Intel i5 10th Gen",
+    "brand": "HP",
+    "model": "440 G8",
+    "cpu": "Intel I5 11TH",
     "ram": "8",
-    "ssd": "512",
-    "price": "25500",
-    "image": "https://drive.google.com/uc?export=view&id=DRIVE_IMAGE_ID_2"
+    "ssd": "256",
+    "qty": "17",
+    "price": "TBD",
+    "image": "https://drive.google.com/uc?export=view&id=YOUR_IMAGE_ID"
+  },
+  {
+    "brand": "DELL",
+    "model": "INSIPIRION 5570",
+    "cpu": "Intel I7 8TH",
+    "ram": "8",
+    "ssd": "256",
+    "qty": "1",
+    "price": "TBD",
+    "image": "https://drive.google.com/uc?export=view&id=YOUR_IMAGE_ID"
+  },
+  {
+    "brand": "LENOVO",
+    "model": "E580",
+    "cpu": "Intel I5 8TH",
+    "ram": "8",
+    "ssd": "256",
+    "qty": "3",
+    "price": "TBD",
+    "image": "https://drive.google.com/uc?export=view&id=YOUR_IMAGE_ID"
+  },
+  {
+    "brand": "LENOVO",
+    "model": "T580",
+    "cpu": "Intel I5 8TH",
+    "ram": "8",
+    "ssd": "256",
+    "qty": "1",
+    "price": "TBD",
+    "image": "https://drive.google.com/uc?export=view&id=YOUR_IMAGE_ID"
+  },
+  {
+    "brand": "LENOVO",
+    "model": "E15",
+    "cpu": "Intel I5 10TH",
+    "ram": "8",
+    "ssd": "256",
+    "qty": "1",
+    "price": "TBD",
+    "image": "https://drive.google.com/uc?export=view&id=YOUR_IMAGE_ID"
   }
 ]
