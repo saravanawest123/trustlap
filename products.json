@@ -15,6 +15,16 @@
     "ram": "8",
     "ssd": "512",
     "price": "25500",
-    "image": "https://drive.google.com/uc?export=view&id=DRIVE_IMAGE_ID_2"
+    "image": "https://drive.google.com/uc?export=view&id=1ABCDEF2GHIJK3L456MNOPQ7R8"
+  },
+  {
+    "brand": "Dell",
+    "model": "Latitude 7390",
+    "cpu": "Intel i7 7th Gen",
+    "ram": "16",
+    "ssd": "512",
+    "price": "26500",
+    "image": "https://drive.google.com/uc?export=view&id=YOUR_IMAGE_ID_3"
   }
+  // Add more rows based on the Excel here...
 ]
