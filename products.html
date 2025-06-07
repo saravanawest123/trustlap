@@ -6,17 +6,54 @@
   <title>TrustLap - Laptops</title>
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" />
   <style>
-    .product-card img { height: 200px; object-fit: cover; }
+    .product-card img {
+      height: 200px;
+      object-fit: cover;
+    }
+
+    /* Scrolling banner */
+    .scrolling-banner {
+      background-color: #fff3cd;
+      color: #8a6d3b;
+      font-size: 1.1rem;
+      font-weight: bold;
+      padding: 10px 0;
+      overflow: hidden;
+      white-space: nowrap;
+      position: relative;
+    }
+
+    .scrolling-text {
+      display: inline-block;
+      padding-left: 100%;
+      animation: scroll-left 12s linear infinite;
+    }
+
+    @keyframes scroll-left {
+      0% {
+        transform: translateX(0%);
+      }
+      100% {
+        transform: translateX(-100%);
+      }
+    }
   </style>
 </head>
 <body class="bg-white">
+
+  <!-- Scrolling Welcome Banner -->
+  <div class="scrolling-banner text-center">
+    <div class="scrolling-text">📢 Welcome to LAPSTORE STOCK details 📢</div>
+  </div>
+
   <div class="container py-4">
     <h2 class="mb-4 text-center">Available Laptops</h2>
     <div class="row" id="product-list"></div>
   </div>
 
   <footer class="text-center py-4">
-    &copy; Copyright © 2025 | Powered by TRUST LAP | All rights reserved | <a href="index.html">Home</a> | <a href="contact.html">Contact</a>
+    &copy; Copyright © 2025 | Powered by TRUST LAP |
+    All rights reserved | <a href="index.html">Home</a> | <a href="contact.html">Contact</a>
   </footer>
 
   <script>
