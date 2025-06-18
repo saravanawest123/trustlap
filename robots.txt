@@ -1,0 +1,6 @@
+# robots.txt for https://www.trustlap.in/
+
+User-agent: *
+Allow: /
+
+Sitemap: https://www.trustlap.in/sitemap.xml
