@@ -3,46 +3,74 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>TrustLap - Available Refurbished Laptops for Sale</title>
-  <meta name="description" content="Buy imported refurbished laptops at low prices with 1-month warranty. Explore our latest stock of HP, Dell, Lenovo laptops. Order now!" />
-  <meta name="keywords" content="refurbished laptops, buy laptops online, HP laptops, Dell laptops, Lenovo laptops, low price laptops, second hand laptops" />
-  <meta name="author" content="TrustLap" />
+  
+  <title>TrustLap - Buy Used Laptops | Stock List | HP | Dell | Lenovo</title>
+
+  <meta name="description" content="Browse current stock of high-quality used laptops from TrustLap. Refurbished HP, Dell, Lenovo laptops at affordable prices with 1-month warranty.">
+
+  <meta name="keywords" content="used laptops, refurbished laptops, HP laptops, Dell laptops, Lenovo laptops, buy used laptops, TrustLap stock, second-hand laptops">
+
+  <meta name="author" content="TrustLap">
+
+  <meta name="robots" content="index, follow">
 
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" />
-
   <style>
-    .product-card img { height: 200px; object-fit: cover; }
-    .scrolling-banner {
-      width: 100%; overflow: hidden; background-color: #ffc107; color: black;
-      font-size: 1.2rem; font-weight: bold; padding: 10px 0; position: relative;
+    .product-card img {
+      height: 200px;
+      object-fit: cover;
     }
+
+    /* Scrolling banner */
+    .scrolling-banner {
+      background-color: #fff3cd;
+      color: #8a6d3b;
+      font-size: 1.1rem;
+      font-weight: bold;
+      padding: 10px 0;
+      overflow: hidden;
+      white-space: nowrap;
+      position: relative;
+    }
+
     .scrolling-text {
-      display: inline-block; white-space: nowrap;
+      display: inline-block;
+      padding-left: 100%;
       animation: scroll-left 12s linear infinite;
     }
+
     @keyframes scroll-left {
-      0% { transform: translateX(100%); }
-      100% { transform: translateX(-100%); }
+      0% {
+        transform: translateX(0%);
+      }
+      100% {
+        transform: translateX(-100%);
+      }
+    }
+
+    /* Footer style */
+    footer {
+      background-color: #fff3cd;
+      color: #8a6d3b;
     }
   </style>
 </head>
-
 <body class="bg-white">
 
+  <!-- Scrolling Welcome Banner -->
   <div class="scrolling-banner text-center">
-    <div class="scrolling-text">Welcome to LAPSTORE - Stock of Refurbished Laptops | Low Price & 1 Month Warranty</div>
+    <div class="scrolling-text">📢 Welcome to LAPSTORE STOCK details 📢</div>
   </div>
 
   <div class="container py-4">
-    <h1 class="mb-4 text-center">Available Refurbished Laptops for Sale</h1>
-
+    <h2 class="mb-4 text-center">Available Laptops</h2>
     <div class="row" id="product-list"></div>
   </div>
 
+  <!-- Footer with yellow background -->
   <footer class="text-center py-4">
-    &copy; 2025 | Powered by TRUST LAP | All rights reserved | 
-    <a href="index.html">Home</a> | 
-    <a href="contact.html">Contact</a>
+    &copy; 2025 | Powered by TRUST LAP | All rights reserved |
+    <a href="index.html">Home</a>
   </footer>
 
   <script>
@@ -55,16 +83,14 @@
           div.className = "col-md-4 mb-4";
           div.innerHTML = `
             <div class="card product-card shadow-sm h-100">
-              <img src="${item.image}" class="card-img-top" alt="${item.brand} ${item.model} Refurbished Laptop">
+              <img src="${item.image}" class="card-img-top" alt="${item.model}">
               <div class="card-body">
                 <h5 class="card-title">${item.brand} - ${item.model}</h5>
-                <p class="card-text">
-                  <strong>CPU:</strong> ${item.cpu} <br>
-                  <strong>RAM:</strong> ${item.ram} GB | <strong>SSD:</strong> ${item.ssd} GB
-                </p>
+                <p class="card-text"><strong>CPU:</strong> ${item.cpu} <br>
+                <strong>RAM:</strong> ${item.ram} GB | <strong>SSD:</strong> ${item.ssd} GB</p>
                 <p><strong>Price:</strong> ₹${item.price}</p>
-                <a class="btn btn-success w-100"
-                   href="https://wa.me/919666997600?text=I%20want%20to%20buy%20${encodeURIComponent(item.brand + ' ' + item.model)}"
+                <a class="btn btn-success w-100" 
+                   href="https://wa.me/919666997600?text=I%20want%20to%20buy%20${encodeURIComponent(item.brand + ' ' + item.model)}" 
                    target="_blank">
                   Order via WhatsApp
                 </a>
